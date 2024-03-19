@@ -1,8 +1,23 @@
 @import "./styleguide.css";
 
+.container {
+  max-width: 1128px;
+  margin: auto;
+  padding: 0 16px;
+}
+
 .header {
   background-color: var(--common-white);
   padding: 16px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 8px;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .logo {
@@ -23,12 +38,6 @@
 .main {
   background-color: var(--common-white);
   padding-bottom: 96px;
-}
-
-.container {
-  max-width: 1128px;
-  margin: auto;
-  padding: 0 16px;
 }
 
 .posts {
